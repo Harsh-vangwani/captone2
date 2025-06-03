@@ -563,16 +563,7 @@ def main():
                             fillcolor='rgba(128,128,128,0.2)',
                             fill='tonexty'
                         ))
-                        fig.add_trace(go.Scatter(
-                            x=df_calc['date'],
-                            y=df_calc['period_min'],
-                            name="Period of Record",
-                            line=dict(color="gray", width=0),
-                            showlegend=True,
-                            mode='lines',
-                            fillcolor='rgba(128,128,128,0.2)',
-                            fill='tonexty'
-                        ))
+                       
 
                         if use_gdd_target:
                             if target_date is not None:
